@@ -75,7 +75,6 @@ sof-firmware
 stow
 swaync
 tailscale
-termsonic-git
 thunderbird
 tlp
 ttf-0xproto-nerd
@@ -117,7 +116,6 @@ ttf-monofur-nerd
 ttf-monoid-nerd
 ttf-mononoki-nerd
 ttf-mplus-nerd
-ttf-ms-fonts
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
 ttf-noto-nerd
@@ -147,7 +145,6 @@ xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-utils
 xf86-video-amdgpu
-yay
 yazi
 yubico-c
 yubikey-manager
