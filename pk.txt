@@ -1,5 +1,4 @@
 7zip
-aisleriot
 amd-ucode
 android-tools
 base
