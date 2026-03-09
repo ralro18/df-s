@@ -12,6 +12,7 @@ _darcs
 \.hg
 
 \.git
+^pk\.txt$
 \.gitignore
 \.gitmodules
 
