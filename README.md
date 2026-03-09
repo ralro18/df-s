@@ -9,7 +9,9 @@ You must install stow to symlink the files and git to download the dot files. (I
 ```
 sudo pacman -S stow git
 ```
-## As part of these dot files I have included a fast and efficient way to install all of the packages I have, you can install them with the following command. You will probably want to install yay and ttf-ms-fonts.
+## Some packages to complete the install.
+As part of these dot files I have included a fast and efficient way to install all of the packages I have, you can install them with the following command. 
+You will probably want to install yay and ttf-ms-fonts.
 ```
 sudo pacman -S --needed - < pk.txt
 ```
