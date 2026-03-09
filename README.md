@@ -9,6 +9,10 @@ You must install stow to symlink the files and git to download the dot files. (I
 ```
 sudo pacman -S stow git
 ```
+## As part of these dot files I have included a fast and efficient way to install all of the packages I have, you can install them with the following command.
+```
+sudo pacman -S --needed - < pk.txt
+```
 ## To apply the symlinks you can use the following command so everything is in the correct location 
 ```
 stow -d ~/.local/df-s -t ~ .
