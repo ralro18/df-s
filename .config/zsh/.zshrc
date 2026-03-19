@@ -10,7 +10,8 @@ alias \
 	pdff="pdfroff -kU -ms" \
 	v="nvim" \
        
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+PROMPT='%B%F{160}[%F{220}%n%F{40}@%F{33}%m %F{135}%~%F{160}]%f%b$ '
+#PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
 HISTSIZE=10000
 SAVEHIST=10000

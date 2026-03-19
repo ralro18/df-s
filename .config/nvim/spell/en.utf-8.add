@@ -1,3 +1,14 @@
 Alducin
 config
 pacman
+Systemd
+systemd
+init
+NetworkManager
+bootcl
+initramfs
+linux
+conf
+UUID
+sda2
+fstab
