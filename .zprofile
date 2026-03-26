@@ -10,6 +10,9 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export XINITRC="$XDG_CONFIG_HOME/xinitrc"
 export GRIM_DEFAULT_DIR="$HOME/ss"
+export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
+#export XDG_CURRENT_DESKTOP=dwl
+#export XDG_SESSION_TYPE=wayland
 #This disabels the Mic LED in my laptop
 sudo bash -c "echo 0 > /sys/class/leds/platform::micmute/brightness"
 if [ -z "${WAYLAND_DISPLAY}" ] && [ "${XDG_VTNR:-0}" -eq 1 ]; then
