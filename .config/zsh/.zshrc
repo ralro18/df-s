@@ -40,6 +40,7 @@ _comp_options+=(globdots)
 source <(fzf --zsh)
 setopt autocd
 
+bindkey -e
 bindkey '^[[3~' delete-char
 
 fastfetch

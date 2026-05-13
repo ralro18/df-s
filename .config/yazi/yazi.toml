@@ -16,26 +16,24 @@ open = [{ run = 'xdg-open "$@"', desc = "Open" }]
 unzip = [{ run = "unzip %@", block = true, for = "unix", desc = "Extract here" }]
 [open]
 rules = [
-    { mime = "text/*",          use = "edit" },
-    { mime = "application/pdf", use = ["pdf", "open"] },
-    { mime = "image/*",         use = ["img", "open"] },
-    { mime = "video/*",         use = ["vid", "open"] },
-    { name = "*",               use = "open" },
+    { mime = "text/*",           use = "edit" },
+    { mime = "application/pdf",  use = ["pdf", "open"] },
+    { mime = "image/*",          use = ["img", "open"] },
+    { mime = "video/*",          use = ["vid", "open"] },
+    { mime = "*",                use = "open" },
 ]
-
 [preview]
-# DO NOT leave cache_dir empty. Use the default system path.
-cache_dir   = "~/.cache/yazi"
+cache_dir   = ""
 image_delay = 0
 max_width   = 1500
 max_height  = 1500
 
 [plugin]
 previewers = [
-    { name = "*/",              run = "folder", sync = true },
+    { mime = "inode/directory", run = "folder", sync = true },
     { mime = "text/*",          run = "code" },
     { mime = "image/*",         run = "image" },
     { mime = "video/*",         run = "video" },
     { mime = "application/pdf", run = "pdf" },
-    { name = "*",               run = "file" },
+    { mime = "*",               run = "file" },
 ]
