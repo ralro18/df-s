@@ -21,7 +21,7 @@ setopt SHARE_HISTORY
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_IGNORE_SPACE
 setopt HIST_REDUCE_BLANKS
-
+export DISPLAY=:0
 vf() {
   local file
   file=$(fzf --preview="bat --color=always {}")

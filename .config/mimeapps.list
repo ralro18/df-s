@@ -33,3 +33,4 @@ audio/wav=mpv.desktop
 audio/flac=mpv.desktop
 audio/x-m4a=mpv.desktop
 audio/aac=mpv.desktop
+x-scheme-handler/afirma=autofirma.desktop
